@@ -3,7 +3,7 @@ from passchecker import *
 from discord.ext import commands
 
 
-# Переменная intents - хранит привилегии бота
+
 intents = discord.Intents.default()
 # Включаем привелегию на чтение сообщений
 intents.message_content = True
